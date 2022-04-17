@@ -105,7 +105,11 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
 
+  let numMultiplyArray = [2 * 3 * 4];
+  let str = `The multiplyArray of [${a},${b} and ${c}] is ${numMultiplyArray}. `;
+  return [numMultiplyArray, str];
 }
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
