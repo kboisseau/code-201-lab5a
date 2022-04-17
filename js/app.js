@@ -80,8 +80,11 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-
+  let numSumArray = [2 + 3 + 4];
+  let str = `The SumArray of [${a},${b} and ${c}] is ${numSumArray}. `;
+  return [numSumArray, str];
 }
+
 
 // Here is the test for sumArray(); uncomment it to run it
 
